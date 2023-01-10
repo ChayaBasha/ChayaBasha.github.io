@@ -35,7 +35,7 @@ a {
 }
 
 a:hover {
-    color: white;
+    color: grey;
 }
 
 header {
@@ -57,9 +57,11 @@ h1 {
     grid-row:2/4;
     
     display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto auto;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
     grid-gap: 8px;
+
+    align-content: center;
 }
 
 .box1 {
@@ -81,6 +83,14 @@ h1 {
     grid-column: 2;
     grid-row: 2;
 }
+
+img {
+  
+    max-width: 75%;
+    max-height: fit-content;
+    object-fit: contain;
+}
+
 
 footer {
     grid-column: 1/4;
