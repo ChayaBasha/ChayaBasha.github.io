@@ -5,7 +5,7 @@ html {
 
 .container {
     display: grid;
-    grid-template-columns: 20% auto;
+    grid-template-columns: auto;
     grid-template-rows: 10% auto 10%;
     height: 100%;
     width: 100%;
@@ -15,25 +15,12 @@ html {
     font-size: 1.3em;
 }
 
-.nav {
-    grid-column: 1;
-    grid-row: 2;
-    background-color: rgba(123,154,208, 80%);
-    font-size: 1.3em;
-   
-}
 ul {
     padding: 0%;;
+    list-style: none;
 }
 
-li {
-    list-style: none;
-    border-radius: 12px;
-    margin: 12px;
-    background-color: white;
-    align-content: stretch;
-    text-align: center;
-}
+
 
 a {
  text-decoration: none;
@@ -67,32 +54,37 @@ h1 {
 
     
     display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 50% 50%;
+    grid-template-columns: 35% 50%;
+    grid-template-rows: 20% 30% 50%;
     grid-gap: 8px;
 
     align-content: center;
 }
 
-.box1 {
-    grid-column: 1;
+.flavorText {
+    grid-column: 1/3;
     grid-row: 1;
 }
 
-.box2 {
+.picture {
     grid-column: 2;
-    grid-row: 1;
+    grid-row: 2;
 }
 
-.box3 {
+.analytics {
     grid-column: 1;
     grid-row: 2;
+    font-size: medium;;
 }
 
-.box4 {
+.ingredients {
+    grid-column:1;
+    grid-row: 3;
+}
+
+.recipe {
+    grid-row: 3;
     grid-column: 2;
-    grid-row: 2;
-    text-align: center;
 }
 
 img {
