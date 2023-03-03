@@ -95,11 +95,3 @@ img {
     object-fit:scale-down;
     
 }
-
-
-footer {
-    grid-column: 1/3;
-    grid-row: 3;
-    background-color: rgba(123,154,208, 80%);
-    text-align: center;
-}
