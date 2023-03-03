@@ -55,7 +55,7 @@ h1 {
     
     display: grid;
     grid-template-columns: 35% 50%;
-    grid-template-rows: 20% 30% 50%;
+    grid-template-rows: 20% 30% auto;
     grid-gap: 8px;
 
     align-content: center;
